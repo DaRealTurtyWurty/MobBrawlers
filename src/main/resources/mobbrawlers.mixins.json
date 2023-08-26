@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "dev.turtywurty.mobbrawlers.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "mobbrawlers.refmap.json",
+  "mixins": [
+    "NearestAttackableTargetGoalMixin"
+  ],
+  "client": [],
+  "server": [],
+  "minVersion": "0.8.5"
+}

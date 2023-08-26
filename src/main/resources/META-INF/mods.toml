@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="LGPLv3"
+issueTrackerURL="https://github.com/DaRealTurtyWurty/MobBrawlers/issues"
+[[mods]]
+modId="mobbrawlers"
+version="${file.jarVersion}"
+displayName="Mob Brawlers"
+displayURL="https://legacy.curseforge.com/minecraft/mc-mods/mob-brawlers"
+logoFile="logo.png"
+authors="TurtyWurty"
+displayTest="MATCH_VERSION"
+description='''Sets mobs to have a configurable range of sight all the way up to infinite (can be laggy) and also makes mobs aggressive to all other mobs.'''
+
+[[dependencies.mobbrawlers]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47.1.3,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.mobbrawlers]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
